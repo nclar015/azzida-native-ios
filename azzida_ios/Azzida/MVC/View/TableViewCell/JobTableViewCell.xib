@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JobTableViewCell" rowHeight="170" id="KGk-i7-Jjw" customClass="JobTableViewCell" customModule="Azzida" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6J-e0-ing" customClass="RoundView" customModule="Azzida" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="376" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTIVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8Z-Nl-F48">
+                                <rect key="frame" x="5" y="5" width="52" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="az_icon" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-tb-jwg" customClass="RoundImageView" customModule="Azzida" customModuleProvider="target">
+                                <rect key="frame" x="15" y="25" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8a1-K2-z5d"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iqp-zl-pba"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need Someone to help move a couch" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAJ-hd-xEq">
+                                <rect key="frame" x="73" y="14" width="205" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ae3-V5-CU1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="zeA-5h-jWz" customClass="RoundLabel" customModule="Azzida" customModuleProvider="target">
+                                <rect key="frame" x="288" y="25" width="80" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="P1y-tx-qrB"/>
+                                    <constraint firstAttribute="height" constant="32" id="o7V-1D-Kiy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="0.24313725489999999" green="0.46666666670000001" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.24313725489999999" green="0.46666666670000001" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1I-5E-9UU">
+                                <rect key="frame" x="0.0" y="89" width="376" height="0.5"/>
+                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="ont-CQ-UDV"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KuK-R4-TnN">
+                                <rect key="frame" x="10" y="99" width="356" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umj-Tn-lEt">
+                                        <rect key="frame" x="0.0" y="0.0" width="173" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Mon, June 2nd" image="Joblisting-Calander">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnDate:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="M13-D1-Bwn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoB-SD-7Hd">
+                                        <rect key="frame" x="183" y="0.0" width="173" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="0.3 Miles Away" image="JobListing-LocationPin">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnDistance:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Y7b-NO-eve"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EpF-d8-Auq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zeA-5h-jWz" firstAttribute="top" secondItem="J6J-e0-ing" secondAttribute="top" constant="25" id="4vx-9l-K4E"/>
+                            <constraint firstItem="9Ia-tb-jwg" firstAttribute="leading" secondItem="J6J-e0-ing" secondAttribute="leading" constant="15" id="6ni-RO-1Iw"/>
+                            <constraint firstAttribute="bottom" secondItem="KuK-R4-TnN" secondAttribute="bottom" constant="3" id="9eu-vu-GJU"/>
+                            <constraint firstItem="hAJ-hd-xEq" firstAttribute="leading" secondItem="9Ia-tb-jwg" secondAttribute="trailing" constant="8" id="Hc8-md-S2f"/>
+                            <constraint firstItem="G8Z-Nl-F48" firstAttribute="top" secondItem="J6J-e0-ing" secondAttribute="top" constant="5" id="Mtt-Ae-3ku"/>
+                            <constraint firstItem="t1I-5E-9UU" firstAttribute="top" secondItem="9Ia-tb-jwg" secondAttribute="bottom" constant="14" id="bNb-K4-bKD"/>
+                            <constraint firstItem="G8Z-Nl-F48" firstAttribute="leading" secondItem="J6J-e0-ing" secondAttribute="leading" constant="5" id="bpv-pS-NAu"/>
+                            <constraint firstItem="hAJ-hd-xEq" firstAttribute="top" secondItem="J6J-e0-ing" secondAttribute="top" constant="14" id="myK-ek-fj5"/>
+                            <constraint firstItem="9Ia-tb-jwg" firstAttribute="top" secondItem="J6J-e0-ing" secondAttribute="top" constant="25" id="nlC-B5-cUb"/>
+                            <constraint firstItem="zeA-5h-jWz" firstAttribute="leading" secondItem="hAJ-hd-xEq" secondAttribute="trailing" constant="10" id="pvX-sc-dVx"/>
+                            <constraint firstAttribute="trailing" secondItem="t1I-5E-9UU" secondAttribute="trailing" id="qVu-1z-Xac"/>
+                            <constraint firstItem="t1I-5E-9UU" firstAttribute="leading" secondItem="J6J-e0-ing" secondAttribute="leading" id="r0S-DH-EdF"/>
+                            <constraint firstItem="KuK-R4-TnN" firstAttribute="leading" secondItem="J6J-e0-ing" secondAttribute="leading" constant="10" id="rrT-Qp-lr0"/>
+                            <constraint firstAttribute="trailing" secondItem="zeA-5h-jWz" secondAttribute="trailing" constant="8" id="v6h-XM-Tnl"/>
+                            <constraint firstAttribute="trailing" secondItem="KuK-R4-TnN" secondAttribute="trailing" constant="10" id="yiM-Ib-iMn"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" systemColor="systemGray6Color"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="J6J-e0-ing" secondAttribute="bottom" constant="10" id="Pzf-kS-ZYi"/>
+                    <constraint firstItem="J6J-e0-ing" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UFV-eZ-rbG"/>
+                    <constraint firstItem="J6J-e0-ing" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="VIy-rU-S1A"/>
+                    <constraint firstAttribute="trailing" secondItem="J6J-e0-ing" secondAttribute="trailing" constant="10" id="vzH-Rp-tUt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="BGview" destination="H2p-sc-9uM" id="oQB-bY-WgB"/>
+                <outlet property="btnDate" destination="umj-Tn-lEt" id="GEd-JZ-cnC"/>
+                <outlet property="btnDistance" destination="NoB-SD-7Hd" id="WeU-Gy-rCn"/>
+                <outlet property="imgIcon" destination="9Ia-tb-jwg" id="Vhg-yY-TFa"/>
+                <outlet property="lblJobStatus" destination="G8Z-Nl-F48" id="xCE-RE-eAD"/>
+                <outlet property="lblPrice" destination="zeA-5h-jWz" id="Yls-qC-ff3"/>
+                <outlet property="lblTitle" destination="hAJ-hd-xEq" id="2pe-Ad-o6P"/>
+                <outlet property="roundView" destination="J6J-e0-ing" id="r0g-CR-54I"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="9Ia-tb-jwg">
+            <size key="intrinsicContentSize" width="266.66666666666669" height="266.66666666666669"/>
+        </designable>
+        <designable name="zeA-5h-jWz">
+            <size key="intrinsicContentSize" width="34" height="21.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="JobListing-LocationPin" width="15.5" height="21"/>
+        <image name="Joblisting-Calander" width="18.5" height="21"/>
+        <image name="az_icon" width="266.66665649414062" height="266.66665649414062"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

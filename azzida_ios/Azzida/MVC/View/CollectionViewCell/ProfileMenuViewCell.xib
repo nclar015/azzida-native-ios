@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProfileMenuViewCell" id="gTV-IL-0wX" customClass="ProfileMenuViewCell" customModule="Azzida" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="204" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="204" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcy-ZP-HW6" customClass="RoundButton" customModule="Azzida" customModuleProvider="target">
+                        <rect key="frame" x="3" y="5" width="198" height="50"/>
+                        <color key="backgroundColor" red="0.27450980392156865" green="0.69019607843137254" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="btnMenu:" destination="gTV-IL-0wX" eventType="touchUpInside" id="qmc-2y-rzq"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="hcy-ZP-HW6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="SOY-6d-ib7"/>
+                <constraint firstAttribute="bottom" secondItem="hcy-ZP-HW6" secondAttribute="bottom" constant="5" id="d3m-Rc-dTP"/>
+                <constraint firstItem="hcy-ZP-HW6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="isP-Rn-vWm"/>
+                <constraint firstAttribute="trailing" secondItem="hcy-ZP-HW6" secondAttribute="trailing" constant="3" id="udE-Kt-Qxa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="204" height="57"/>
+            <connections>
+                <outlet property="btnMenu" destination="hcy-ZP-HW6" id="72f-0w-4p6"/>
+            </connections>
+            <point key="canvasLocation" x="-20.289855072463769" y="45.535714285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

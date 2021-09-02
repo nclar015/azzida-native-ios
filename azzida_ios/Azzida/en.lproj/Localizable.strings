@@ -1,0 +1,210 @@
+/* 
+  Localizable.strings
+  Azzida
+
+  Created by Vishnu Chhipa on 27/05/20.
+  Copyright © 2020 Vishnu Chhipa. All rights reserved.
+*/
+
+// Sign UP
+"Azzida" = "Azzida";
+"Last_Name" = "Last Name";
+"Email" = "Email";
+"UserName" = "User Name";
+"Password" = "Password";
+"SignUp" = "Sign Up";
+"OrSignUpwith" = "Or Sign Up with";
+"Facebook" = "Facebook";
+"Google" = "Google";
+"Already_have_anaccount" = "Already have an account? ";
+"Login_" = "Login!";
+"SignUp" = "Sign Up";
+"FirstName" = "First Name";
+
+"Welcome_To_Azzida" = "Welcome to Azzida";
+
+
+// Login
+
+"Login" = "Login";
+"Forgot_Password" = "Forgot Password?";
+"Or_Login_with" = "Or Login with";
+"Dont_have_an_account" = "Don't have an account? ";
+"SignUp_" = "Sign up!";
+
+
+
+//SIDE MENU
+"Options" = "Options";
+"Share" = "Share";
+"Profile" = "Profile";
+"My_Listing" = "My Listing";
+"My_Jobs" = "My Jobs";
+"Feed_Jobs" = "Feed Jobs";
+"Jobs_Feed" = "Jobs Feed";
+"About" = "About";
+"FAQ" = "FAQ";
+"Contact_Us" = "Contact Us";
+"Terms_and_Conditions" = "Terms and Conditions";
+"Dispute_Resolution_Policy" = "Dispute Resolution Policy";
+"Privacy_Policy" = "Privacy Policy";
+"Logout" = "Logout";
+"Fees_and_Charges" = "Fees and Charges";
+
+
+//My Profile
+"Edit_Profile" = "Edit Profile";
+"Edit_Payment_Info" = "Edit Payment Info";
+"My_Listings" = "My Listings";
+"My_Jobs" = "My Jobs";
+"Dispute_Resolution" = "Dispute Resolution";
+"Recent_Activity" = "Recent Activity";
+"Payment_History" = "Payment History";
+"My_Listing" = "My Listing";
+"Back_To_Profile" = "Back To Profile";
+"Cash_Out" = "Cash Out";
+"Old_Password" = "Old Password";
+"New_Password" = "New Password";
+"Confirm_Password" = "Confirm Password";
+
+
+// Payments /  Transactions
+"Transactions" = "Transactions";
+"Payments" = "Payments";
+"Manage_Payment_Method" = "Manage Payment Method";
+"Save" = "Save";
+"Add_Payment_Method" = "Add Payment Method";
+"PaidTo" = "Paid to";
+"Received_From" = "Received from";
+
+// MY jobs
+"ACTIVE" = "ACTIVE";
+"COMPLETED" = "COMPLETED";
+"CANCELED" = "CANCELED";
+"OFFERED" = "OFFERED";
+"PENDING" = "PENDING";
+
+"IN_PROGRESS" = "IN PROGRESS";
+"COMPLETED" = "COMPLETED";
+"CANCELED" = "CANCELED";
+
+//Add New Payment Method
+"Add_New_Payment_Method" = "Add New Payment Method";
+"Name_on_the_Card" = "Name on the Card";
+"Card_Number" = "Card Number";
+"Expiry" = "Expiry";
+"CVV" = "CVV";
+"Save_Card" = "Save Card";
+"Enter_Full_Name" = "Enter Full Name";
+
+// Job Filter VC
+"Filter" = "Filter";
+"Job_Feeds" = "Job Feeds";
+"Distance" = "Distance";
+"within" = "within";
+"miles" = "miles";
+"Price" = "Price";
+"above" = "above";
+"Categories" = "Categories";
+"Cleaning" = "Cleaning";
+"Exercise" = "Exercise";
+"Landscaping" = "Landscaping";
+"Lifting" = "Lifting";
+"Packing_Organizing" = "Packing/Organizing";
+"Packing" = "Packing";
+"Organizing" = "Organizing";
+"Technology" = "Technology";
+"Clear_Filters" = "Clear Filters";
+"Apply" = "Apply";
+
+
+"Description" = "Description";
+// ADD JOB
+"Back_to_Feed" = "Back to Feed";
+"Post" = "Post";
+"Lets_Get_Something_Done" = "Lets Get Something Done...";
+"Add_Photo" = "Add Photo";
+"What_would_you_call_it" = "What would you call it?";
+"Enter_title_here" = "Enter title here";
+"When_do_you_need_it" = "When do you need it?";
+"Select_date" = "Select date";
+"How_long_will_it_take" = "How long will it take?";
+"Amount_willing_to_pay" = "Amount willing to pay";
+"Enter_amount" = "Enter amount";
+"How_would_you_categorize_it" = "How would you categorize it?";
+"Select_Category" = "Select Category";
+"Where_isit_at" = "Where is it at?";
+"Enter_the_locaiton" = "Enter the locaiton";
+"What_are_all_the_details" = "What are all the details?";
+"Enter_the_work_details_here" = "Enter the work details here";
+"How_much_do_you_want_to_pay" = "How much do you want to pay?";
+
+// HOME VC
+"Choose_current_location" = "Choose current location";
+"or" = "OR";
+"Change_location_manually" = "Change location manually";
+"Enter_location" = "Enter location";
+
+// Dispute Resolution VC
+"Submit" = "Submit";
+"We_Want_to_Help" = "We Want to Help!";
+"Reason_for_dispute" = "Reason for dispute";
+"Post_associated" = "Post associated";
+"Best_way_to_contact" = "Best way to contact";
+"Describe_what_happened" = "Describe what happened";
+"Please_explain_the_issue" = "Please explain the issue...";
+"AddAttachment" = "Add Attachment";
+
+// Edit Profile
+"ChangePhoto" = "Change Photo";
+"FirstName" = "First Name";
+"LastName" = "Last Name";
+"Email" = "Email";
+"Skills_Experience" = "Skills/Experience";
+"Mention_your_skills" = "Mention your skills/experience \n(comma separated)";
+"Select_Category" = "Select Category";
+"Job_Categories" = "Job Categories";
+
+//ALERT
+
+"Create_Job_Done" = "Create Job Done.";
+
+"Login_Successful" = "Login Successful";
+"Please_enter_UserName" = "Please enter User Name.";
+"Please_enter_Password" = "Please enter Password.";
+"Please_enter_First_Name"=  "Please enter First Name.";
+"Please_enter_last_Name"=  "Please enter Last Name.";
+"Please_enter_Email"=  "Please enter Email.";
+"Please_enterValidEmail_address" = "Please enter Valid Email Address.";
+"Registration_Successful" = "Registration Successful";
+
+"Please_select_job_image" =  "Please select job Image";
+"Please_enter_job_title" =  "Please enter job title";
+"Please_enter_job_date" = "Please enter job date";
+"Please_enter_job_Time" =  "Please enter job Time";
+"Please_enter_Amount" = "Please enter Amount";
+"Please_select_Job_Category" = "Please select Job Category";
+"Please_enter_location" = "Please enter location";
+"Please_select_Job_Details" = "Please select Job Details";
+"Please_select_From_Job_Date" = "Please select From Job Date";
+
+"Please_enter_card_holder_name" = "Please enter card holder name";
+"Please_enter_card_number" = "Please enter card number";
+"Please_enter_card_CVV" = "Please enter card CVV";
+"Please_enter_card_expiry" = "Please enter card expiry";
+
+// JOb details
+"Application" = "Application";
+"Applications" = "Applications";
+"Completed" = "Completed";
+
+"Jobs_Completed" = "Jobs Completed:";
+"Joined_Azzida" = "Joined Azzida:";
+"SkillsExperience" = "Skills/Experience:";
+
+
+"Enter_Reason_for_dispute" = "Please Enter Reason for dispute.";
+"select_Post_associated" = "Please select Post associated.";
+"select_Best_way_to_contact" = "Please select Best way to contact.";
+"Please_explain_the_issue_Alert" = "Please explain the issue";
+"Please_Add_Attachment" = "Please Add Attachment";

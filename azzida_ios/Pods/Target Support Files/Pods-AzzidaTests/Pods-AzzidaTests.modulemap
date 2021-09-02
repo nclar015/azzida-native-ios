@@ -1,0 +1,6 @@
+framework module Pods_AzzidaTests {
+  umbrella header "Pods-AzzidaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
